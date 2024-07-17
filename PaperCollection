@@ -1,0 +1,17 @@
+With the rapid development of artificial intelligence and big data applications, the requirements for computational efficiency and energy efficiency ratios are increasingly demanding. The 2024 ISSCC conference has gathered the latest research achievements in the field of in-memory computing, showcasing a variety of innovative technologies and designs. This collection covers a wide range of topics from basic theory to practical applications, including but not limited to:
+
+1，New In-Memory Computing Architectures: Introduces several new types of in-memory computing architectures that significantly reduce data movement by executing computational tasks directly on the storage medium, thereby improving energy efficiency and processing speed.
+
+2，Hardware Implementation of In-Memory Computing: Discusses how to apply in-memory computing technology to hardware design, including customized memory arrays and processing units, as well as their performance and energy efficiency in different application scenarios.
+
+3，Algorithm and In-Memory Computing Co-Optimization: Analyzes the interaction between algorithm design and in-memory computing hardware, demonstrating how to optimize algorithms for specific hardware to achieve more efficient data processing.
+
+4，Application of Neural Networks in In-Memory Computing: Studies how to use in-memory computing technology to accelerate the training and inference processes of neural networks, especially on resource-constrained edge computing devices.
+
+5，Reliability and Security Issues: Discusses the reliability and security challenges that in-memory computing may encounter in practical deployment, and how to address these issues through the collaborative design of hardware and software.
+
+6，Testing and Verification Methods for In-Memory Computing: Introduces testing and verification methods for assessing the performance and stability of in-memory computing systems to ensure their reliability in practical applications.
+
+7，Future Trends and Prospects: Provides an outlook on the future development of in-memory computing technology, including potential technological breakthroughs and market application prospects.
+
+This collection not only provides valuable references for academia and industry but also offers new perspectives and ideas for promoting the development and application of in-memory computing technology.
