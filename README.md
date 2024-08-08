@@ -1,4 +1,4 @@
-#  2024 CIM 论文合集（Paper with links)
+#  存内计算 论文合集（Paper with links)
 
 **ISSCC 2024 decisions are now available on OpenReview！**
 
@@ -20,7 +20,14 @@
 
 ##### 【存内计算-数字与模拟计算】（存内计算-数字与模拟计算：）
 
+##### 【存内计算-机器学习领域】（存内计算-机器学习领域：）
+
+##### 【存内计算- 加速器】（存内计算- 加速器：）
+
 ##### 【存内计算- 现有应用场景】（存内计算- 现有应用场景：）
+
+##### 【存内计算-研究进展】（存内计算- 现有应用场景：）
+
 
 
 
@@ -166,7 +173,7 @@ Paper:  [10.1109/IEDM19574.2021.9720625](https://doi.org/10.1109/IEDM19574.2021.
 
 Paper:[10.1109/ICCE-Asia57006.2022.9954870](https://doi.org/10.1109/ICCE-Asia57006.2022.9954870)
 
-## 
+
 
 ###### 2.IGZO CIM: Enabling In-Memory Computations Using Multilevel Capacitorless Indium–Gallium–Zinc–Oxide-Based Embedded DRAM Technology
 
@@ -202,7 +209,13 @@ Paper: [10.1109/AICAS57966.2023.10168641](https://doi.org/10.1109/AICAS57966.202
 
 
 
+## 存内计算-机器学习领域：
 
+基于阻变存储器阵列的存内计算技术，实现了一步训练传统的机器学习算法，包括线性回归、逻辑回归。这一技术可以进一步用于训练多项式回归、神经网络等其它机器学习算法。
+
+
+
+## 存内计算-加速器：
 
 
 
@@ -227,5 +240,8 @@ Paper: https://www.sciencedirect.com/science/article/pii/S0167739X21000286
 ###### 3.In-Memory Computing with Phase-Change Memory: Opportunities and Challenges
 
 Paper: https://www.sciencedirect.com/science/article/abs/pii/S0165562520301085
+
+
+## 存内计算- 研究进展：
 
 
