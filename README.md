@@ -1,4 +1,4 @@
-# ISSCC 2024 CIM 论文合集（Paper with links)
+#  2024 CIM 论文合集（Paper with links)
 
 **ISSCC 2024 decisions are now available on OpenReview！**
 
