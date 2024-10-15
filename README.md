@@ -1,3 +1,5 @@
+English Version: [https://github.com/witmemtech/CIM-Technical-Papers-Collection/blob/main/readme.EN]
+
 #Computing in memory Paper Collection（Paper with links）
 
 首个存内计算论文合集，精心策划以覆盖ISSCC 34系列的核心议题，提供了一个全面的技术框架，从存内计算的初步理解到其在现代计算架构中的前沿应用。合集深入探讨了以下关键领域：首先阐述了存内计算的基础知识，：进一步分析了传统与新型存储器技术在存内计算中的角色，包括它们的工作原理及其对性能和效率的影响。探讨了存内计算在处理向量乘矩阵这一关键计算任务时的优势，尤其是在提升计算速度和降低能耗方面。比较数字存内计算的精确性和模拟存内计算的能效性，最后合集展示了存内计算在现实世界中的应用，包括其在人工智能、物联网等技术领域的潜力。
