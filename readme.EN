@@ -1,0 +1,456 @@
+# Computing in Memory Paper Collection
+
+The Computing in Memory (CIM) Paper Collection is a curated collection that covers the core topics of the ISSCC 34 series, providing a comprehensive technical framework from the initial understanding of in-memory computing to its cutting-edge applications in modern computing architectures. This collection delves into the following key areas:
+
+1. **Basic Concepts of In-Memory Computing**: It explains the fundamental principles of CIM, how it integrates computation directly into memory arrays to reduce access latency and energy consumption, and enhance throughput and performance.
+2. **Role of Traditional and Emerging Memory Technologies in CIM**: Analyzing how different memory technologies contribute to CIM, their working principles, and their impact on performance and efficiency.
+3. **CIM for Vector-Matrix Multiplication**: Discussing the advantages of CIM in handling vector-matrix multiplication, a key computational task, especially in improving computational speed and reducing energy consumption.
+4. **Digital vs. Analog CIM**: Comparing the precision of digital CIM with the energy efficiency of analog CIM.
+5. **Real-World Applications of CIM**: Showcasing the potential of CIM in various technological fields such as artificial intelligence, the Internet of Things, and more.
+
+This paper collection is designed for technology enthusiasts, researchers, and industry professionals, aiming to provide an in-depth perspective on the development of in-memory computing technology, from theoretical foundations to practical deployment, revealing the full picture of CIM to readers.
+
+## ISSCC 2024 Section 34 Series
+
+ISSCC is a prestigious conference that covers a wide range of topics including digital circuit design, analog circuit design, mixed-signal design, CMOS image sensors, capacitive digital converters, and more. Since 202x, in-memory computing technology has been rapidly developing, becoming a powerful way to accelerate neural network inference on the edge. ISSCC has dedicated a separate section to this technology, Section 34, in this year's conference. This series includes every paper from the 2024 ISSCC 34 series, along with analyses for developers to learn and discuss.
+
+1. **ISSCC.34.1** — 28nm 83.23TFLOPS/W POSIT for High-Precision AI Applications
+
+   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454567)
+   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/139472261?utm_source=bbs_include)
+
+2. **ISSCC.34.2** — Dual-Port Design for High Area Utilization of Floating-Point/Integer CIM
+
+   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454447)
+   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/139983166?spm=1001.2014.3001.5502)
+
+3. **ISSCC.34.3** — "Lightning" Hybrid Analog-Digital CIM for Transformers and CNNs Architecture
+
+   - [Paper](https://doi.org/10.1109/ISSCC19947.2020.9062931)
+   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/138122847?spm=1001.2014.3001.5502)
+
+4. **ISSCC.34.4** — 3nm Digital Compute-in-Memory Chip Made by TSMC
+
+   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454556)
+   - [Analysis](https://bbs.csdn.net/topics/618245914)
+
+5. **ISSCC.34.5** — 818-4094 TOPS/W Capacitor-Reconfigurable CIM Macro for Unified Acceleration of CNNs and Transformers
+
+   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454489)
+   - [Analysis](https://bbs.csdn.net/topics/619197013)
+
+6. **ISSCC.34.6** — 28nm 72.12TFLOPS/W Hybrid-Domain Outer-Product Based Floating-Point SRAM CIM with Logarithm Bit-Width Residual ADC
+
+   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454313)
+   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/141897623)
+
+7. **ISSCC 34.7** — A 28nm 2.4Mb/mm² 6.9 - 16.3TOPS/mm² Digital Compute-in-Memory Macro with eDRAM Lookup Table, Supporting Memory Encoding and Refresh 
+
+   Paper: 10.1109/ISSCC49657.2024.10454323
+
+   
+
+   **8.ISSCC 34.8** — A 22nm 16Mb 31.2TFLOPS/W Floating-Point ReRAM Compute-in-Memory Macro for AI Edge Devices 
+
+   Paper: 10.1109/ISSCC49657.2024.10454468
+
+   
+
+   **9.ISSCC 34.9** — A Plastic Compute-in-Memory Macro Based on Flash-SRAM-ADC Fusion, for Neural Network Learning in Standard 14nm FinFET Process 
+
+   Paper: 10.1109/ISSCC49657.2024.10454372
+
+   
+
+## Basic  Definition - Computing in memory
+
+Computing in memory basic definition :CIM refers to the technology of integrating computational units directly into memory, which reduces the access latency and power consumption of memory, and enhances throughput and computational performance. In the modern computer processor's von Neumann architecture, the storage unit and computational unit are separate parts interacting through a bus. IMC technology essentially eliminates the unnecessary data transfer delay and power consumption, thereby breaking through the traditional von Neumann bottleneck and the memory wall. This series has selected some high-quality review papers and Chinese doctoral dissertations in the field of in-memory computing, hoping to help beginners better understand the relevant knowledge in this field.
+
+###### **1.In-Memory Computing: A Game Changer for Enterprise Applications**
+
+Paper: https://www.usenix.org/conference/atc19/presentation/lee
+
+###### 2.In-Memory Computing with Phase-Change Memory: Opportunities and Challenges
+
+Links: https://www.sciencedirect.com/science/article/abs/pii/S0165562520301085
+
+###### 3.Towards End-to-End In-Memory Computing Systems
+
+Links: https://link.springer.com/article/10.1007/s13389-020-00308-5
+
+###### 4.Compute-in-Memory Chips for Deep Learning: Recent Trends and Prospects
+
+Links: [10.1109/MCAS.2021.3092533]
+
+###### 5.A Survey of SRAM-based Processing-in-Memory Techniques and Applications
+
+Links: https://www.researchgate.net/profile/Sparsh-Mittal-2/publication/351344022_A_Survey_of_SRAM-based_Processing-in-Memory_Techniques_and_Applications/links/60922686458515d315f760c6/A-Survey-of-SRAM-based-Processing-in-Memory-Techniques-and-Applications.pdf
+
+###### 6.Challenges and trends of SRAM-based computing-in-memory for AI edge devices
+
+Links: [10.1109/TCSI.2021.3064189]
+
+###### 7.Memory devices and applications for in-memory computing
+
+Links: [10.1038/s41565-020-0655-z]
+
+###### 8.Embedded Memory and In-Memory Computing Circuit Design for Artificial Intelligence
+
+Links: 10.27005/d.cnki.gdzku.2020.004656
+
+###### 9.Research on In-Memory Computing Circuits and Systems for Edge Neural Network Accelerators
+
+Links: 10.27517/d.cnki.gzkju.2023.002238
+
+###### 10.Key Technologies for Agile Design of Memristor-Based In-Memory Computing
+
+Links: 10.27307/d.cnki.gsjtu.2022.000032
+
+
+
+## Computing In-Memory  - Memory Papers Collection:
+
+Computing In-memory  technology enables data to be computed directly within the storage units, avoiding frequent data transmission between memory and processors, and improving computational efficiency and energy efficiency. In this technology, the memory is a key factor affecting computational performance, methods, and circuit design. IMC chips will have different characteristics depending on the memory used. This series has selected popular memories such as SRAM, MRAM, NOR Flash, DRAM, and compiled relevant literature.
+
+#### SRAM:
+
+###### 1.In-Memory Computing with Emerging Non-Volatile Memory: A Machine Learning Perspective
+
+Paper: https://www.nature.com/articles/s41729-021-00100-5
+
+###### 2. A 137.5 TOPS/W SRAM Compute-in-Memory Macro with 9-b Memory Cell-Embedded ADCs and Signal Margin Enhancement Techniques for AI Edge Applications
+
+Paper:https://arxiv.org/abs/2307.05944
+
+###### 3.A Charge Domain P-8T SRAM Compute-In-Memory with Low-Cost DAC/ADC Operation for 4-bit Input Processing
+
+Paper: https://arxiv.org/abs/2211.16008
+
+
+
+#### MRAM：
+
+###### 1.MRAM-based Analog Sigmoid Function for In-memory Computing
+
+Paper ：https://arxiv.org/abs/2204.09918
+
+###### 2.A noise-tolerant, resource-saving probabilistic binary neural network implemented by the SOT-MRAM compute-in-memory system
+
+Paper: https://arxiv.org/abs/2403.19374
+
+
+
+#### Nor Flash:
+
+###### 1.Collaborative Training for Compensation of Inference Errors in NOR Flash Computing in memory Chips
+
+Paper: [10.1109/CSCWD61410.2024.10580459](https://doi.org/10.1109/CSCWD61410.2024.10580459)
+
+###### 2.A 40nm 1Mb 35.6 TOPS/W MLC NOR-Flash Based Computation-in-Memory Structure for Machine Learning
+
+Paper:[10.1109/ISCAS51556.2021.9401600](https://doi.org/10.1109/ISCAS51556.2021.9401600)
+
+###### 3.Multibit Content Addressable Memory Design and Optimization Based on 3-D nand-Compatible IGZO Flash
+
+Paper: https://xplorestaging.ieee.org/document/10521670
+
+###### 4.Design-Technology Co-Optimizations (DTCO) for General-Purpose Computing In-Memory Based on 55nm NOR Flash Technology
+
+Paper: [10.1109/IEDM19574.2021.9720625](https://doi.org/10.1109/IEDM19574.2021.9720625)
+
+
+
+#### DRAM：
+
+###### 1.Computing-In-Memory Using 1T1C Embedded DRAM Cell with Micro Sense Amplifier for Enhancing Throughput
+
+Paper:[10.1109/ICCE-Asia57006.2022.9954870](https://doi.org/10.1109/ICCE-Asia57006.2022.9954870)
+
+###### 2.IGZO CIM: Enabling In-Memory Computations Using Multilevel Capacitorless Indium–Gallium–Zinc–Oxide-Based Embedded DRAM Technology
+
+Paper: [10.1109/JXCDC.2022.3188366](https://doi.org/10.1109/JXCDC.2022.3188366)
+
+###### 3.A Novel Transpose 2T-DRAM based Computing-in-Memory Architecture for On-chip DNN Training and Inference
+
+Paper: [10.1109/AICAS57966.2023.10168641](https://doi.org/10.1109/AICAS57966.2023.10168641)
+
+## Vector-Matrix Multiplication
+
+Computing In-Memory - Vector-Matrix Multiplication: Among all in-memory computing operations, the most common is the use of Kirchhoff's Law for vector-matrix multiplication. The reasons are: (1) it can efficiently integrate computation and storage; (2) its computational efficiency is high (i.e., one vector-matrix multiplication can be completed within a read operation delay); (3) in current popular data-intensive applications, such as machine learning and graph computing applications, vector-matrix multiplication accounts for more than 90% of the total computational volume.
+
+###### 1.Dot-Product Engine for Neuromorphic Computing: Programming 1T1M Crossbar to Accelerate Matrix-Vector Multiplication
+
+Paper: https://dl.acm.org/doi/abs/10.1145/2897937.2898010
+
+###### 2.Challenges and Trends of Nonvolatile In-Memory-Computation Circuits for AI Edge Devices
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9586071
+
+###### 3.Challenges and Trends of SRAM-Based Computing-In-Memory for AI Edge Devices
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9382915
+
+###### 4.Scalable and Programmable Neural Network Inference Accelerator Based on In-Memory Computing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9580448
+
+###### 5.A Programmable Heterogeneous Microprocessor Based on Bit-Scalable In-Memory Computing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9082159
+
+###### 6.Victor: A Variation-resilient Approach Using CellClustered Charge-domain computing for Highdensity High-throughput MLC CiM
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10247934
+
+###### 7.DIMCA: An Area-Efficient Digital In-Memory Computing Macro Featuring Approximate Arithmetic Hardware in 28 nm
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10266328
+
+###### 8.ISAAC: A Convolutional Neural Network Accelerator with In-Situ Analog Arithmetic in Crossbars
+
+Paper: https://dl.acm.org/doi/abs/10.1145/3007787.3001139
+
+###### 9.Specific ADC of NVM-Based Computation-in-Memory for Deep Neural Networks
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10668403
+
+###### 10.A 7-nm Compute-in-Memory SRAM Macro Supporting Multi-Bit Input, Weight and Output and Achieving 351 TOPS/W and 372.4 GOPS
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9250531
+
+
+
+## Digital in-memory computing (CIM) and analog CIM
+
+Digital in-memory computing (CIM) and analog CIM each have their strengths and weaknesses, and both are key developmental paths in the integration of storage and computation. Digital CIM, due to its high speed, high precision, strong noise resistance, mature process technology, and high energy efficiency, is more suitable for applications that require large computational power, cloud computing, and edge computing scenarios. On the other hand, analog CIM, with its non-volatility, high density, low cost, and low power consumption, is more suitable for applications with small computational power, on-device (edge) use, and those that require long standby times. Against the backdrop of wearable devices, smart home appliances, and toy robots entering thousands of households, the market advantages of analog CIM, such as high energy efficiency, small area, and low cost, are becoming increasingly prominent. For example, as previously mentioned, the WTM2101 from ZhiCun Technology has taken the lead in entering the market for large-scale application and is in a leading position in the commercialization process. Moreover, the higher computational power WTM-8 series is about to enter mass production, showing great potential in the edge AI market.
+
+#### Digital CIM:
+
+###### 1.An 89TOPS/W and 16.3TOPS/mm2 All-Digital SRAM-Based Full-Precision Compute-In Memory Macro in 22nm for Machine-Learning Edge Applications
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9365766
+
+###### 2.A 5-nm 254-TOPS/W 221-TOPS/mm2 Fully-Digital Computingin-Memory Macro Supporting Wide-Range Dynamic-VoltageFrequency Scaling and Simultaneous MAC and Write Operations
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9731754
+
+###### 3.A 28nm 64-kb 31.6-TFLOPS/W Digital-Domain Floating-PointComputing-Unit and Double-Bit 6T-SRAM Computing-inMemory Macro for Floating-Point CNNs
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10067260
+
+#### Analog CIM:
+
+###### 1.End-to-End DNN Inference on a Massively Parallel Analog In Memory Computing Architecture
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10137208
+
+###### 2.A 22nm Delta-Sigma Computing-In-Memory (ΔΣCIM) SRAM Macro with Near-Zero-Mean Outputs and LSB-First ADCs Achieving 21.38TOPS/W for 8b-MAC Edge AI Processing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10067289
+
+###### 3.CiM-BNN:Computing-in-MRAM Architecture for Stochastic Computing based Bayesian Neural Network
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10262235
+
+#### Hybrid Analog-Digital CIM:
+
+###### 1.A 22nm 64kb Lightning-Like Hybrid Computing-in-Memory Macro with a Compressed Adder Tree and Analog-Storage Quantizers for Transformer and CNNs
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10454278
+
+###### 2.A 28nm 72.12TFLOPS/W Hybrid-Domain Outer-Product Based Floating-Point SRAM Computing-in-Memory Macro with Logarithm Bit-Width Residual ADC
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10454313
+
+###### 3.Hybrid Analog-Digital In-Memory Computing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9643526
+
+###### 4.HD-CIM: Hybrid-Device Computing-In-Memory Structure Based on MRAM and SRAM to Reduce Weight Loading Energy of Neural Networks
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9865238
+
+
+
+## Computing **In-Memory Application Scenarios**: 
+
+Computing In-memory technology is rapidly becoming a key driver for artificial intelligence and other data-intensive applications. By integrating computational tasks directly into storage units, it significantly reduces the need for data transmission between processors and memory, thereby reducing latency and energy consumption. In-memory computing has many applications in deep learning, graph computing, intelligent sensors, and IoT devices.
+
+###### 1.A Survey on In-Memory Computing Architectures for Big Data Applications
+
+Paper: https://ieeexplore.ieee.org/document/9150090
+
+###### 2.A Comparative Study of In-Memory Computing Technologies for Data-Intensive Applications
+
+Paper: https://www.sciencedirect.com/science/article/pii/S0167739X21000286
+
+###### 3.In-Memory Computing with Phase-Change Memory: Opportunities and Challenges
+
+Paper: https://www.sciencedirect.com/science/article/abs/pii/S0165562520301085
+
+###### 4.Compute-in-Memory Chips for Deep Learning: Recent Trends and Prospects
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9512855
+
+###### 5.Deep learning acceleration based on in-memory computing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8865099
+
+###### 6.A Review of In-Memory Computing Architectures for Machine Learning Applications
+
+Paper: https://dl.acm.org/doi/abs/10.1145/3386263.3407649
+
+###### 7.YinMem: A distributed parallel indexed in-memory computation system for large scale data analytics
+
+Paper: https://ieeexplore.ieee.org/abstract/document/7840607
+
+###### 8.Real-Time Awareness Scheduling for Multimedia Big Data Oriented In-Memory Computing
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8283555
+
+###### 9.ReRAM-Based In-Memory Computing for Search Engine and Neural Network Applications
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8681546
+
+###### 10.A 351TOPS/W and 372.4GOPS Compute-in-Memory SRAM Macro in 7nm FinFET CMOS for Machine-Learning Applications
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9062985
+
+
+
+## Computing **In-Memory Research Progress**: 
+
+Computing In-memory  technology, with its unique advantage of integrating storage and computation, has attracted widespread attention from academia and industry. In recent years, research progress in in-memory computing has mainly focused on the integration of analog and digital circuits, the development of new storage devices, and improving computational precision and speed. Especially in AI tasks, in-memory computing has shown excellent energy efficiency and performance, promoting the design and application of large-scale neural network accelerators. The following are high-quality papers related to the research progress of in-memory computing.
+
+###### 1.A full spectrum of computing-in-memory technologies
+
+Paper: https://www.nature.com/articles/s41928-023-01053-4 (https://doi.org/10.1038/s41928-023-01053-4)
+
+###### 2.Trends and challenges in the circuit and macro of RRAM-based computing-in-memory systems
+
+Paper: https://www.sciencedirect.com/science/article/pii/S2709472322000028 (https://doi.org/10.1016/j.chip.2022.100004)
+
+###### 3.A review on SRAM-based computing in-memory: Circuits, functions, and applications
+
+Paper: https://iopscience.iop.org/article/10.1088/1674-4926/43/3/031401/meta (https://doi.org/10.1088/1674-4926/43/3/031401)
+
+###### 4.Memory devices and applications for in-memory computing
+
+Paper: https://www.nature.com/articles/s41565-020-0655-z (https://doi.org/10.1038/s41565-020-0655-z)
+
+###### 5.In-Memory Computing: Advances and Prospects
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8811809 (https://doi.org/10.1109/MSSC.2019.2922889)
+
+###### 6.Analog content-addressable memories with memristors
+
+Paper: https://www.nature.com/articles/s41467-020-15254-4 (https://doi.org/10.1038/s41467-020-15254-4)
+
+###### 7.An area-efficient in-memory implementation method of arbitrary Boolean function based on SRAM array
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10202194 (https://doi.org/10.1109/TC.2023.3301156)
+
+###### 8.In-memory computing with resistive switching devices
+
+Paper: https://www.nature.com/articles/s41928-018-0092-2 (https://doi.org/10.1038/s41928-018-0092-2)
+
+###### 9.Mixed-precision in-memory computing
+
+Paper: https://www.nature.com/articles/s41928-018-0054-8 (https://doi.org/10.1038/s41928-018-0054-8)
+
+###### 10.A survey of SRAM-based in-memory computing techniques and applications
+
+Paper: https://www.sciencedirect.com/science/article/pii/S1383762121001909 (https://doi.org/10.1016/j.sysarc.2021.102276)
+
+
+
+## Computing in memory in the Field of Machine Learning: 
+
+Computing In-memory technology, by integrating computation directly within storage units, significantly reduces data transfer latency and energy consumption, and greatly enhances the inference and training efficiency of machine learning models. It is particularly suitable for accelerating matrix operations in neural networks, enhancing real-time processing capabilities and energy efficiency. The following are high-quality papers related to the role of in-memory computing in the field of machine learning.
+
+###### 1.FloatPIM: in-memory acceleration of deep neural network training with high precision
+
+Paper: https://dl.acm.org/doi/abs/10.1145/3307650.3322237 (https://doi.org/10.1145/3307650.3322237)
+
+###### 2.In-Memory Computing in Emerging Memory Technologies for Machine Learning: An Overview
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9218505 (https://doi.org/10.1109/DAC18072.2020.9218505)
+
+###### 3.A 351TOPS/W and 372.4GOPS Compute-in-Memory SRAM Macro in 7nm FinFET CMOS for Machine-Learning Applications
+
+Paper: https://ieeexplore.ieee.org/document/9062985 (https://doi.org/10.1109/ISSCC19947.2020.9062985)
+
+###### 4.A 1.041-Mb/mm2 27.38-TOPS/W Signed-INT8 Dynamic-LogicBased ADC-less SRAM Compute-In-Memory Macro in 28nm with Reconfigurable Bitwise Operation for AI and Embedded Applications
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9731545 (https://doi.org/10.1109/ISSCC42614.2022.9731545)
+
+###### 5.Edge learning using a fully integrated neuro-inspired memristor chip
+
+Paper: https://www.science.org/doi/abs/10.1126/science.ade3483 (https://doi.org/10.1126/science.ade3483)
+
+###### 6.An Energy-Efficient Computing-in-Memory Neuromorphic System with On-Chip Training
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8918995 (https://doi.org/10.1109/BIOCAS.2019.8918995)
+
+###### 7.A High-Density and Reconfigurable SRAM-Based Digital Compute-In-Memory Macro for Low-Power AI Chips
+
+Paper: https://ieeexplore.ieee.org/document/10124240 (https://doi.org/10.1109/TCSII.2023.3276169)
+
+###### 8.Challenges and Trends of SRAM-Based Computing-In-Memory for AI Edge Devices
+
+Paper: https://ieeexplore.ieee.org/document/10124240 (https://doi.org/10.1109/TCSI.2021.3064189)
+
+###### 9.A High Energy Efficient Reconfigurable Hybrid Neural Network Processor for Deep Learning Applications
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8207783 (https://doi.org/10.1109/JSSC.2017.2778281)
+
+###### 10.A Twin-8T SRAM Computation-In-Memory Macro for Multiple-Bit CNN-Based Machine Learning
+
+Paper: https://ieeexplore.ieee.org/abstract/document/8662392 (https://doi.org/10.1109/ISSCC.2019.8662392)
+
+
+
+## Computing **In-Memory  Accelerators**: 
+
+In-memory computing accelerators, by combining computation and storage functions, reduce the bottleneck of data transfer and significantly enhance the energy efficiency and processing speed in machine learning tasks, especially in accelerating matrix operations in neural networks. The following are high-quality papers related to in-memory computing accelerators.
+
+###### 1.A 1–8b Reconfigurable Digital SRAM Compute-in-Memory Macro for Processing Neural Networks
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10417860 (https://doi.org/10.1109/TCSI.2024.3355944)
+
+###### 2.A Convolution Neural Network Accelerator Design with Weight Mapping and Pipeline Optimization
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10247977 (https://doi.org/10.1109/DAC56929.2023.10247977)
+
+###### 3.A 29.12 TOPS/W and 1.13 TOPS/mm2 NAS-Optimized Mixed-Precision DNN Accelerator with Vector Split- andCombination Systolic in 28nm CMOS
+
+Paper: https://ieeexplore.ieee.org/document/10529039 (https://doi.org/10.1109/CICC60959.2024.10529039)
+
+###### 4.Advances and Trends on On-Chip Compute-in-Memory Macros and Accelerators
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10248014 (https://doi.org/10.1109/DAC56929.2023.10248014)
+
+###### 5.A Nonvolatile AI-Edge Processor with 4MB SLC-MLC Hybrid-Mode ReRAM Compute-in-Memory Macro and 51.4-251TOPS/W
+
+Paper: A Nonvolatile AI-Edge Processor with 4MB SLC-MLC Hybrid-Mode ReRAM Compute-in-Memory Macro and 51.4-251TOPS/W (https://doi.org/10.1109/ISSCC42615.2023.10067610)
+
+###### 6.A 2.75-to-75.9TOPS/W Computing-in-Memory NN Processor Supporting Set-Associate Block-Wise Zero Skipping and Ping-Pong CIM with Simultaneous Computation and Weight Updating
+
+Paper: https://ieeexplore.ieee.org/abstract/document/9365958 (https://doi.org/10.1109/ISSCC42613.2021.9365958)
+
+###### 7.TensorCIM: Digital Computing-in-Memory Tensor Processor With Multichip-Module-Based Architecture for Beyond-NN Acceleration
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10555118 (https://doi.org/10.1109/JSSC.2024.3406569)
+
+###### 8.A 1ynm 1.25V 8Gb, 16Gb/s/pin GDDR6-based Accelerator-inMemory supporting 1TFLOPS MAC Operation and Various Activation Functions for Deep-Learning Applications
+
+Paper: https://ieeexplore.ieee.org/document/9731711 (https://doi.org/10.1109/ISSCC42614.2022.9731711)
+
+###### 9.Unified Agile Accuracy Assessment in Computing-in-Memory Neural Accelerators by Layerwise Dynamical Isometry
+
+Paper: https://ieeexplore.ieee.org/abstract/document/10247782 (https://doi.org/10.1109/DAC56929.2023.10247782)
+
+###### 10.Processing-in-SRAM Acceleration for Ultra-Low Power Visual 3D Perception
+
+Paper: https://dl.acm.org/doi/abs/10.1145/3489517.3530446 (https://doi.org/10.1145/3489517.3530446)
+
