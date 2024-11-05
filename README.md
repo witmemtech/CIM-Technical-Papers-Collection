@@ -91,17 +91,18 @@ Paper: [10.1109/ISSCC49657.2024.10454313](https://doi.org/10.1109/ISSCC49657.202
 ###### ISSCC 34.7——28nm 2.4Mb/mm² 6.9 - 16.3TOPS/mm² 基于eDRAM查找表、支持内存编码与刷新的数字存算一体宏单元，
 
 Paper: [10.1109/ISSCC49657.2024.10454323](https://doi.org/10.1109/ISSCC49657.2024.10454323)
+解析:https://bbs.csdn.net/topics/619406224
 
 
 ###### ISSCC 34.8——22nm 16Mb 31.2TFLOPS/W适用于AI边缘设备的浮点ReRAM存算一体宏单元
 
 Paper: [10.1109/ISSCC49657.2024.10454468](https://doi.org/10.1109/ISSCC49657.2024.10454468)
-
+解析：https://bbs.csdn.net/topics/619405789
 
 ###### ISSCC 34.9——基于Flash-SRAM-ADC融合的塑性存算一体宏单元，用于标准14nm FinFET工艺中的神经网络学习
 
 Paper: [10.1109/ISSCC49657.2024.10454372](https://doi.org/10.1109/ISSCC49657.2024.10454372)
-
+解析：https://bbs.csdn.net/topics/619406810
 
 
 ## 存内计算-基础概念：
