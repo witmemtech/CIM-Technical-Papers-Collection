@@ -1,12 +1,21 @@
-# Computing in Memory Paper Collection
+# **Computing in Memory Paper Collection**
 
 The Computing in Memory (CIM) Paper Collection is a curated collection that covers the core topics of the ISSCC 34 series, providing a comprehensive technical framework from the initial understanding of in-memory computing to its cutting-edge applications in modern computing architectures. This collection delves into the following key areas:
 
-1. **Basic Concepts of In-Memory Computing**: It explains the fundamental principles of CIM, how it integrates computation directly into memory arrays to reduce access latency and energy consumption, and enhance throughput and performance.
-2. **Role of Traditional and Emerging Memory Technologies in CIM**: Analyzing how different memory technologies contribute to CIM, their working principles, and their impact on performance and efficiency.
-3. **CIM for Vector-Matrix Multiplication**: Discussing the advantages of CIM in handling vector-matrix multiplication, a key computational task, especially in improving computational speed and reducing energy consumption.
-4. **Digital vs. Analog CIM**: Comparing the precision of digital CIM with the energy efficiency of analog CIM.
-5. **Real-World Applications of CIM**: Showcasing the potential of CIM in various technological fields such as artificial intelligence, the Internet of Things, and more.
+1. **Basic Concepts of In-Memory Computing**: 
+It explains the fundamental principles of CIM, how it integrates computation directly into memory arrays to reduce access latency and energy consumption, and enhance throughput and performance.
+
+2. **Role of Traditional and Emerging Memory Technologies in CIM**: 
+Analyzing how different memory technologies contribute to CIM, their working principles, and their impact on performance and efficiency.
+
+3. **CIM for Vector-Matrix Multiplication**: 
+Discussing the advantages of CIM in handling vector-matrix multiplication, a key computational task, especially in improving computational speed and reducing energy consumption.
+
+4. **Digital vs. Analog CIM**: 
+Comparing the precision of digital CIM with the energy efficiency of analog CIM.
+
+5. **Real-World Applications of CIM**: 
+Showcasing the potential of CIM in various technological fields such as artificial intelligence, the Internet of Things, and more.
 
 This paper collection is designed for technology enthusiasts, researchers, and industry professionals, aiming to provide an in-depth perspective on the development of in-memory computing technology, from theoretical foundations to practical deployment, revealing the full picture of CIM to readers.
 
@@ -14,61 +23,48 @@ This paper collection is designed for technology enthusiasts, researchers, and i
 
 ISSCC is a prestigious conference that covers a wide range of topics including digital circuit design, analog circuit design, mixed-signal design, CMOS image sensors, capacitive digital converters, and more. Since 202x, in-memory computing technology has been rapidly developing, becoming a powerful way to accelerate neural network inference on the edge. ISSCC has dedicated a separate section to this technology, Section 34, in this year's conference. This series includes every paper from the 2024 ISSCC 34 series, along with analyses for developers to learn and discuss.
 
-1. **ISSCC.34.1** — 28nm 83.23TFLOPS/W POSIT for High-Precision AI Applications
+**ISSCC.34.1 — 28nm 83.23TFLOPS/W POSIT for High-Precision AI Applications**
+- [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454567)
+- [Analysis](https://blog.csdn.net/m0_58966968/article/details/139472261?utm_source=bbs_include)
 
-   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454567)
-   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/139472261?utm_source=bbs_include)
+**ISSCC.34.2 — Dual-Port Design for High Area Utilization of Floating-Point/Integer CIM**
+- [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454447)
+- [Analysis](https://blog.csdn.net/m0_58966968/article/details/139983166?spm=1001.2014.3001.5502)
 
-2. **ISSCC.34.2** — Dual-Port Design for High Area Utilization of Floating-Point/Integer CIM
+**ISSCC.34.3 — "Lightning" Hybrid Analog-Digital CIM for Transformers and CNNs Architecture**
+- [Paper](https://doi.org/10.1109/ISSCC19947.2020.9062931)
+- [Analysis](https://blog.csdn.net/m0_58966968/article/details/138122847?spm=1001.2014.3001.5502)
 
-   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454447)
-   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/139983166?spm=1001.2014.3001.5502)
+**ISSCC.34.4 — 3nm Digital Compute-in-Memory Chip Made by TSMC**
+- [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454556)
+- [Analysis](https://bbs.csdn.net/topics/618245914)
 
-3. **ISSCC.34.3** — "Lightning" Hybrid Analog-Digital CIM for Transformers and CNNs Architecture
+**ISSCC.34.5 — 818-4094 TOPS/W Capacitor-Reconfigurable CIM Macro for Unified Acceleration of CNNs and Transformers**
+- [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454489)
+- [Analysis](https://bbs.csdn.net/topics/619197013)
 
-   - [Paper](https://doi.org/10.1109/ISSCC19947.2020.9062931)
-   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/138122847?spm=1001.2014.3001.5502)
+**ISSCC.34.6 — 28nm 72.12TFLOPS/W Hybrid-Domain Outer-Product Based Floating-Point SRAM CIM with Logarithm Bit-Width Residual ADC**
+- [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454313)
+- [Analysis](https://blog.csdn.net/m0_58966968/article/details/141897623)
 
-4. **ISSCC.34.4** — 3nm Digital Compute-in-Memory Chip Made by TSMC
+**ISSCC 34.7 — A 28nm 2.4Mb/mm² 6.9 - 16.3TOPS/mm² Digital Compute-in-Memory Macro with eDRAM Lookup Table, Supporting Memory Encoding and Refresh**
+Paper: [10.1109/ISSCC49657.2024.10454323]()
+Analysis:https://blog.csdn.net/m0_58966968/article/details/142380340?spm=1001.2014.3001.5501
 
-   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454556)
-   - [Analysis](https://bbs.csdn.net/topics/618245914)
+**ISSCC 34.8— A 22nm 16Mb 31.2TFLOPS/W Floating-Point ReRAM Compute-in-Memory Macro for AI Edge Devices** 
+Paper: 10.1109/ISSCC49657.2024.10454468
+Analysis：https://blog.csdn.net/m0_58966968/article/details/143503398?spm=1001.2014.3001.5501
 
-5. **ISSCC.34.5** — 818-4094 TOPS/W Capacitor-Reconfigurable CIM Macro for Unified Acceleration of CNNs and Transformers
-
-   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454489)
-   - [Analysis](https://bbs.csdn.net/topics/619197013)
-
-6. **ISSCC.34.6** — 28nm 72.12TFLOPS/W Hybrid-Domain Outer-Product Based Floating-Point SRAM CIM with Logarithm Bit-Width Residual ADC
-
-   - [Paper](https://doi.org/10.1109/ISSCC49657.2024.10454313)
-   - [Analysis](https://blog.csdn.net/m0_58966968/article/details/141897623)
-
-7. **ISSCC 34.7** — A 28nm 2.4Mb/mm² 6.9 - 16.3TOPS/mm² Digital Compute-in-Memory Macro with eDRAM Lookup Table, Supporting Memory Encoding and Refresh 
-
-   Paper: 10.1109/ISSCC49657.2024.10454323
-
-   
-
-   **8.ISSCC 34.8** — A 22nm 16Mb 31.2TFLOPS/W Floating-Point ReRAM Compute-in-Memory Macro for AI Edge Devices 
-
-   Paper: 10.1109/ISSCC49657.2024.10454468
-
-   
-
-   **9.ISSCC 34.9** — A Plastic Compute-in-Memory Macro Based on Flash-SRAM-ADC Fusion, for Neural Network Learning in Standard 14nm FinFET Process 
-
-   Paper: 10.1109/ISSCC49657.2024.10454372
-
-   
+**ISSCC 34.9 — A Plastic Compute-in-Memory Macro Based on Flash-SRAM-ADC Fusion, for Neural Network Learning in Standard 14nm FinFET Process** 
+Paper: 10.1109/ISSCC49657.2024.10454372
+Analysis: https://blog.csdn.net/m0_58966968/article/details/143507311?spm=1001.2014.3001.5501
 
 ## Basic  Definition - Computing in memory
-
 Computing in memory basic definition :CIM refers to the technology of integrating computational units directly into memory, which reduces the access latency and power consumption of memory, and enhances throughput and computational performance. In the modern computer processor's von Neumann architecture, the storage unit and computational unit are separate parts interacting through a bus. IMC technology essentially eliminates the unnecessary data transfer delay and power consumption, thereby breaking through the traditional von Neumann bottleneck and the memory wall. This series has selected some high-quality review papers and Chinese doctoral dissertations in the field of in-memory computing, hoping to help beginners better understand the relevant knowledge in this field.
 
 ###### **1.In-Memory Computing: A Game Changer for Enterprise Applications**
 
-Paper: https://www.usenix.org/conference/atc19/presentation/lee
+Links: https://www.usenix.org/conference/atc19/presentation/lee
 
 ###### 2.In-Memory Computing with Phase-Change Memory: Opportunities and Challenges
 
@@ -110,7 +106,7 @@ Links: 10.27307/d.cnki.gsjtu.2022.000032
 
 ## Computing In-Memory  - Memory Papers Collection:
 
-Computing In-memory  technology enables data to be computed directly within the storage units, avoiding frequent data transmission between memory and processors, and improving computational efficiency and energy efficiency. In this technology, the memory is a key factor affecting computational performance, methods, and circuit design. IMC chips will have different characteristics depending on the memory used. This series has selected popular memories such as SRAM, MRAM, NOR Flash, DRAM, and compiled relevant literature.
+Computing In-memory  technology enables data to be computed directly within the storage units, avoiding frequent data transmission between memory and processors, and improving computational efficiency and energy efficiency. In this technology, the memory is a key factor affecting computational performance, methods, and circuit design. CIM chips will have different characteristics depending on the memory used. This series has selected popular memories such as SRAM, MRAM, NOR Flash, DRAM, and compiled relevant literature.
 
 #### SRAM:
 
@@ -173,6 +169,8 @@ Paper: [10.1109/JXCDC.2022.3188366](https://doi.org/10.1109/JXCDC.2022.3188366)
 ###### 3.A Novel Transpose 2T-DRAM based Computing-in-Memory Architecture for On-chip DNN Training and Inference
 
 Paper: [10.1109/AICAS57966.2023.10168641](https://doi.org/10.1109/AICAS57966.2023.10168641)
+
+
 
 ## Vector-Matrix Multiplication
 
@@ -453,4 +451,3 @@ Paper: https://ieeexplore.ieee.org/abstract/document/10247782 (https://doi.org/1
 ###### 10.Processing-in-SRAM Acceleration for Ultra-Low Power Visual 3D Perception
 
 Paper: https://dl.acm.org/doi/abs/10.1145/3489517.3530446 (https://doi.org/10.1145/3489517.3530446)
-
